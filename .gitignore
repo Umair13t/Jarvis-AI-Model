@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# AI model caches
+.cache/
+models/
+*.bin
+*.model
+*.onnx
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
